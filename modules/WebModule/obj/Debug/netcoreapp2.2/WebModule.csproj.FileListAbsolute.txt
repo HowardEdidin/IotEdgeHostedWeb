@@ -1,0 +1,14 @@
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\bin\Debug\netcoreapp2.2\WebModule.deps.json
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\bin\Debug\netcoreapp2.2\WebModule.runtimeconfig.json
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\bin\Debug\netcoreapp2.2\WebModule.runtimeconfig.dev.json
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\bin\Debug\netcoreapp2.2\WebModule.dll
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\bin\Debug\netcoreapp2.2\WebModule.pdb
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.csprojAssemblyReference.cache
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.csproj.CoreCompileInputs.cache
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.RazorAssemblyInfo.cache
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.RazorAssemblyInfo.cs
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.AssemblyInfoInputs.cache
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.AssemblyInfo.cs
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.RazorTargetAssemblyInfo.cache
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.dll
+D:\scratch\repofy18\doosan\EdgeSolution\modules\WebModule\obj\Debug\netcoreapp2.2\WebModule.pdb
