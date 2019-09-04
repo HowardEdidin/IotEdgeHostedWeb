@@ -2,7 +2,9 @@
 
 ## Overview
 
-This repo contains the definition for a set of modules to show off some examples of
+This repo contains the definition for a set of modules to show off some examples of local communication between modules outside of the message routing provided by the IoT Hub/Agent modules.
+
+The modules included or referenced in this manifest are:
 
 1. SampleModule - Basic sample module that is created from the IoT Hub Toolkit Extension in VS Code
 2. SimulatedTemperatureSensor - Basic sample module that is created from the IoT Hub Toolkit Extension in VS Code (no source code)
