@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Devices.Client;
+using Microsoft.Azure.Devices.Client.Transport.Mqtt;
 
 namespace WebModule.Controllers
 {
@@ -10,6 +12,13 @@ namespace WebModule.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+        private IIoTService _ioTService;
+        public ValuesController(IIoTService ioTService) 
+        {
+            _ioTService = ioTService;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
@@ -32,8 +41,13 @@ namespace WebModule.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async void Put(int id, [FromBody] string value)
         {
+            var sentMessageCount = await _ioTService.SendEventAsync("output1", "{ messagekey: \"" + value + "\"}");
+            if (sentMessageCount > 0) {
+                Console.WriteLine("Message sent: " + sentMessageCount);
+            }
+
         }
 
         // DELETE api/values/5

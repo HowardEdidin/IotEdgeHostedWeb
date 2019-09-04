@@ -137,7 +137,8 @@
         "routes": {
           "SampleModuleToIoTHub": "FROM /messages/modules/SampleModule/outputs/* INTO $upstream",
           "sensorToSampleModule": "FROM /messages/modules/SimulatedTemperatureSensor/outputs/temperatureOutput INTO BrokeredEndpoint(\"/modules/SampleModule/inputs/input1\")",
-          "SQLServerModuleToIoTHub": "FROM /messages/modules/SQLServerModule/outputs/* INTO $upstream"
+          "SQLServerModuleToIoTHub": "FROM /messages/modules/SQLServerModule/outputs/* INTO $upstream",
+          "WebModule": "FROM /messages/modules/WebModule/outputs/* INTO $upstream"
         },
         "storeAndForwardConfiguration": {
           "timeToLiveSecs": 7200
